@@ -1,0 +1,12 @@
+<p class="control">
+    <a href="/#/"><button class="button is-success">Back Home</button></a>
+</p>
+
+<figure class="image is-square">
+    <img ng-src="{{ vm.contact.url }}" alt="{{ vm.contact.name }}">
+</figure>
+
+<p class="singleInfo"><i class="fa fa-user"></i><strong class="name">{{ vm.contact.name }}</strong></p>
+<p class="singleInfo"><i class="fa fa-envelope"></i><strong class="email">{{ vm.contact.email }}</strong></p>
+<p class="singleInfo"><i class="fa fa-phone"></i><strong class="phone">{{ vm.contact.phone }}</strong></p>
+<p class="singleInfo"><i class="fa fa-globe"></i><strong class="location">{{ vm.contact.location }}</strong></p>
