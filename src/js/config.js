@@ -18,7 +18,7 @@ function config ($stateProvider, $urlRouterProvider) {
       templateUrl: 'templates/add.tpl.html',
       controller: 'AddController as vm'
     })
-    
+
     .state('root.single', {
       url: '/contact/:id',
       templateUrl: 'templates/single.tpl.html',

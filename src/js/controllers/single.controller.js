@@ -9,7 +9,6 @@ function SingleController (ContactService, $stateParams) {
       vm.contact = res.data;
     });
   }
-
 }
 
 SingleController.$inject = ['ContactService', '$stateParams'];
